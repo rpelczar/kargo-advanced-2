@@ -5,6 +5,7 @@ This is a GitOps repository of an Kargo example that showcases advanced Kargo te
 ### Features
 * A Warehouse which monitors both a container repository for new images and manifest changes in git
 * Eight Stage deploy pipeline
+* Auto-promotion enabled for dev environment
 * Git + Image tag promotion
 * Verification using Analysis 
 * Argo CD application syncing
