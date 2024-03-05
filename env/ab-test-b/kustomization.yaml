@@ -7,6 +7,6 @@ resources:
 namespace: guestbook-ab-test-b
 
 images:
-- name: ghcr.io/akuity/guestbook
-  newName: ghcr.io/akuity/guestbook
+- name: ghcr.io/jessesuen/guestbook
+  newName: ghcr.io/jessesuen/guestbook
   newTag: v0.0.1

@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/akuity/kargo-advanced.git
+      repoURL: https://github.com/jessesuen/kargo-advanced.git
       revision: HEAD
       directories:
       - path: env/*
@@ -23,5 +23,5 @@ spec:
       project: guestbook
       source:
         path: app # default render path
-        repoURL: https://github.com/akuity/kargo-advanced.git
+        repoURL: https://github.com/jessesuen/kargo-advanced.git
         targetRevision: env/{{path.basename}}

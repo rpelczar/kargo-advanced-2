@@ -8,6 +8,6 @@ metadata:
     kargo.akuity.io/secret-type: repository
 stringData:
   type: git
-  url: https://github.com/akuity/kargo-advanced.git
+  url: https://github.com/jessesuen/kargo-advanced.git
   username: username
   password: github_pat_REPLACEME
