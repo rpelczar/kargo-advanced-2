@@ -24,3 +24,5 @@ spec:
           value: bar
         - name: BAZ
           value: bar
+        - name: KUBECONEU
+          value: "2024"
