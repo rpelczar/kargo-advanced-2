@@ -5,11 +5,11 @@ metadata:
   namespace: argocd
 spec:
   generators:
-  - git:
-      repoURL: https://github.com/rpelczar/kargo-advanced.git
-      revision: HEAD
-      directories:
-      - path: env/*
+    - git:
+        repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+        revision: HEAD
+        directories:
+          - path: env/*
   template:
     metadata:
       name: guestbook-{{path.basename}}
@@ -25,5 +25,5 @@ spec:
       project: guestbook
       source:
         path: app # default render path
-        repoURL: https://github.com/rpelczar/kargo-advanced.git
+        repoURL: https://github.com/hiddeco/kargo-advanced-2.git
         targetRevision: env/{{path.basename}}
