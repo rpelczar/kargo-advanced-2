@@ -20,8 +20,7 @@ spec:
         namespace: guestbook-{{path.basename}}
         # To deploy to a different cluster, replace `name: demo` with your cluster name,
         # or use a server url (e.g. https://kubernetes.default.svc)
-        name: https://kubernetes.default.svc
-        # server: https://kubernetes.default.svc
+        server: https://kubernetes.default.svc
       project: guestbook
       source:
         path: app # default render path
