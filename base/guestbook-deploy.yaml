@@ -14,15 +14,15 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: ghcr.io/rpelczar/guestbook:latest
-        name: guestbook
-        ports:
-        - name: http
-          containerPort: 3000
-        env:
-        - name: FOO
-          value: bar
-        - name: BAZ
-          value: bar
-        - name: KUBECONEU
-          value: "2024"
+        - image: ghcr.io/hiddeco/guestbook:latest
+          name: guestbook
+          ports:
+            - name: http
+              containerPort: 3000
+          env:
+            - name: FOO
+              value: bar
+            - name: BAZ
+              value: bar
+            - name: KUBECONEU
+              value: "2024"
