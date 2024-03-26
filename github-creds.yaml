@@ -5,9 +5,9 @@ metadata:
   name: github-creds
   namespace: kargo-advanced
   labels:
-    kargo.akuity.io/secret-type: repository
+    kargo.akuity.io/cred-type: git
 stringData:
   type: git
-  url: https://github.com/hiddeco/kargo-advanced-2.git
+  repoURL: https://github.com/hiddeco/kargo-advanced-2.git
   username: username
   password: github_pat_REPLACEME
