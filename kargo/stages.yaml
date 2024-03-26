@@ -10,7 +10,7 @@ spec:
     warehouse: guestbook
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/dev
         render: {}
     argoCDAppUpdates:
@@ -29,7 +29,7 @@ spec:
       - name: dev
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/staging
         render: {}
     argoCDAppUpdates:
@@ -51,7 +51,7 @@ spec:
       - name: staging
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/ab-test-a
         render: {}
   verification:
@@ -71,7 +71,7 @@ spec:
       - name: staging
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/ab-test-b
         render: {}
   verification:
@@ -104,7 +104,7 @@ spec:
       - name: prod
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/prod-west
         render: {}
     argoCDAppUpdates:
@@ -123,7 +123,7 @@ spec:
       - name: prod
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/prod-central
         render: {}
     argoCDAppUpdates:
@@ -142,7 +142,7 @@ spec:
       - name: prod
   promotionMechanisms:
     gitRepoUpdates:
-      - repoURL: https://github.com/hiddeco/kargo-advanced-2.git
+      - repoURL: https://github.com/rpelczar/kargo-advanced-2.git
         writeBranch: env/prod-east
         render: {}
     argoCDAppUpdates:
