@@ -35,7 +35,9 @@ spec:
         render: {}
     argoCDAppUpdates:
       - appName: guestbook-staging
-
+  verification:
+    analysisTemplates:
+      - name: test
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
@@ -55,8 +57,7 @@ spec:
         render: {}
   verification:
     analysisTemplates:
-      - name: cat-fact
-
+      - name: test
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
@@ -76,8 +77,7 @@ spec:
         render: {}
   verification:
     analysisTemplates:
-      - name: cat-fact-fail
-
+      - name: test
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
@@ -91,7 +91,6 @@ spec:
     upstreamStages:
       - name: ab-test-a
       - name: ab-test-b
-
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
@@ -111,7 +110,6 @@ spec:
         render: {}
     argoCDAppUpdates:
       - appName: guestbook-prod-west
-
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
@@ -131,7 +129,6 @@ spec:
         render: {}
     argoCDAppUpdates:
       - appName: guestbook-prod-central
-
 ---
 apiVersion: kargo.akuity.io/v1alpha1
 kind: Stage
